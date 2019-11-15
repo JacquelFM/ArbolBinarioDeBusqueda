@@ -1,0 +1,14 @@
+Utilizando la misma clase base para manejar un inventario, 
+se controlarán productos, almacenándolos en un BST (ABB) "Binary Search Tree", 
+pero solo se implementarán las siguientes funciones:
+
+Agregar (nuevo producto)
+Buscar(código) regresar producto
+
+--- y regresar el contenido del árbol mediante los recorridos
+
+InOrder()
+PreOrder()
+PostOrder()
+
+El código del producto se utilizará como criterio de comparación.

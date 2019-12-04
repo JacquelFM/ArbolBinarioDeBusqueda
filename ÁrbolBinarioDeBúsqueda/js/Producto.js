@@ -5,6 +5,8 @@ export default class Producto {
         this._precio = precio;
         this._cantidad = cantidad;
         this._descripcion = descripcion;
+        this._hder = null;
+        this._hizq = null;
 
     }
 
@@ -14,6 +16,14 @@ export default class Producto {
 
     get nombre() {
         return this._nombre;
+    }
+
+    get hder() {
+        return this._hder;
+    }
+
+    get hizq() {
+        return this._hizq;
     }
 
     get precio() {
@@ -26,6 +36,14 @@ export default class Producto {
 
     get descripcion() {
         return this._descripcion;
+    }
+
+    set hder(nuevo) {
+        this._hder = nuevo;
+    }
+
+    set hizq(nuevo) {
+        this._hizq = nuevo;
     }
 
     toString() {

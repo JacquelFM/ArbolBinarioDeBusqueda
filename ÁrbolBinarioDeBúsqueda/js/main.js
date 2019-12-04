@@ -30,15 +30,21 @@ class Main {
         });
 
         document.querySelector("#btnInOrder").addEventListener("click", () => {
-            inventario.inOrder();
+            let codigo = document.querySelector("#intCodigo").value;
+
+            inventario.inOrder(codigo);
         });
 
         document.querySelector("#btnPreOrder").addEventListener("click", () => {
-            inventario.preOrder();
+            let codigo = document.querySelector("#intCodigo").value;
+
+            inventario.preOrder(codigo);
         });
 
         document.querySelector("#btnPostOrder").addEventListener("click", () => {
-            inventario.postOrder();
+            let codigo = document.querySelector("#intCodigo").value;
+
+            inventario.postOrder(codigo);
         });
 
     }
